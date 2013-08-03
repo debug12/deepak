@@ -9,3 +9,6 @@
 body{
 	background-image:url('../img/background.png');
 }
+#blogItemHeader{
+	text-align: center;
+}
