@@ -1,7 +1,29 @@
+body{
+	background-image:url('../img/background.png');
+}
+
 #bigName{
 	text-align: center;
 }
 
 #tagline{
 	text-align: center;
+}
+
+#personal{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+#project{
+	text-align: center;
+
+}
+
+#project-content{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
