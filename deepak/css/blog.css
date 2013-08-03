@@ -5,3 +5,7 @@ body{
 #blogHead{
 	text-align: center;
 }
+
+.dateText{
+	color:rgb(255,0,0);
+}
