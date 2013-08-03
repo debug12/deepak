@@ -2,12 +2,20 @@ body{
 	background-image:url('../img/background.png');
 }
 
-#bigName{
+.jumbotron{
+	background-image:url('../img/topback.jpg');
+}
+
+.bigName{
 	text-align: center;
+	font-family: 'Yesteryear', cursive;
+	font-size: 100px;
 }
 
 #tagline{
 	text-align: center;
+	font-family: 'Yesteryear', cursive;
+	font-size: 30px;
 }
 
 #personal{
@@ -17,17 +25,59 @@ body{
 	margin-top: 40px;
 }
 
-#projectTitle{
-	text-align: center;
-}
-
 .centerImage{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-
 .hide{
 	display: none;
 }
+
+.bash-outer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 600px;
+	border-radius: 15px;
+	background-color: black;
+	box-shadow: 10px 10px 10px #888888;
+}
+
+.bash-topbar{
+	width: 600px;
+	height: 25px;
+	background-color: #5E5B5C;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+}
+
+.centerMe{
+	text-align:center;
+}
+
+#bash-title{
+	color: #EBE1DA;
+	font-size: 17px;
+}
+
+.bash-inner{
+	font-family: 'Ubuntu Mono';	
+	color: white;
+	font-size: 20px;
+}
+
+#typed-cursor{
+	opacity: 1;
+	font-weight: 100;
+	animation: blink 0.7s infinite;
+}
+
+@-keyframes blink{
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
