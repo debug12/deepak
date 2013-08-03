@@ -7,9 +7,13 @@ body{
 }
 
 .dateText{
-	color:rgb(255,0,0);
+	color:#b94a48;
 }
 
 a:hover{
 	text-decoration: none;
+}
+
+.dateText:hover{
+	color:#732e2d;
 }
