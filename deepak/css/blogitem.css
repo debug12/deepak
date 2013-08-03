@@ -2,6 +2,10 @@
 	text-align:"left";
 }
 
+.jumbotron{
+   background-image:url('../img/topback.jpg');
+}
+
 .blogText{
 	margin-left: 40px;
 }
@@ -9,8 +13,10 @@
 body{
 	background-image:url('../img/background.png');
 }
-#blogItemHeader{
+.blogTitle{
 	text-align: center;
+   font-family: 'Yesteryear', cursive;
+   font-size: 100px;
 }
 
 #footer {
