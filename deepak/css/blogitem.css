@@ -1,0 +1,11 @@
+.blogHeader{
+	text-align:"left";
+}
+
+.blogText{
+	margin-left: 40px;
+}
+
+body{
+	background-image:url('../img/background.png');
+}
