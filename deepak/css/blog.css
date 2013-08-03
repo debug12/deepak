@@ -2,10 +2,15 @@ body{
 	background-image:url('../img/background.png');
 }
 
-#blogHead{
-	text-align: center;
+.jumbotron{
+	background-image:url('../img/topback.jpg');
 }
 
+.blogHead{
+	text-align: center;
+	font-family: 'Yesteryear', cursive;
+	font-size: 100px;
+}
 .dateText{
 	color:#b94a48;
 }
