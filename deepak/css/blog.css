@@ -9,3 +9,7 @@ body{
 .dateText{
 	color:rgb(255,0,0);
 }
+
+a:hover{
+	text-decoration: none;
+}
