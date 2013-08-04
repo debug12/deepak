@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/typed.css">
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		<link href="css/bootstrap.lightbox.css" rel = "stylesheet" text="text/css" media = "screen">
 
 	</head>
 	<body>
@@ -22,15 +23,12 @@
 			<table cellpadding="5" width="400" cellspacing="0">
 				<tr>
 					<td>
-						<img class = "projectImage" src="img/stamp.jpg">
+						<a href="img/stamp.png">
+							<img data-toggle = "lightbox" id = "stamp" class = "projectImage" src="img/stamp.png">
+						</a>
 					</td>
 					<td>
-						<div class = "image2">
-							<div class = "imageText">
-								<span style = "color: #B81D1D;"> $ </span>
-								<span style = "color: #2D1DB8;"> (this) </span>
-							</div>
-						</div>
+						<img class = "projectImage" src="img/300x300.png">
 					</td>
 					<td>
 						<img src="img/traction.png" height = "200px" width = "300px">
@@ -41,7 +39,7 @@
 						<img src="img/300x300.png">
 					</td>
 					<td>
-						<img src="img/300x300.png">
+						<img class = "projectImage"src="img/this.png">
 					</td>
 					<td>
 						<img src="img/300x300.png">
@@ -75,5 +73,18 @@
 
 		</tr></table>
 		</div>
+
+		<div id="demoLightbox" class = "lightbox hide fade" tabindex="-1" role = "dialog" aria-hidden="true">
+			<div class = 'lightbox-content'>
+				<img src="img/stamp.png">
+				<div class = "lightbox-caption"><p>Your caption here </p></div>
+			</div>
+		</div>
+
+
+		<script src = "http://code.jquery.com/jquery.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src = "js/bootstrap.min.js"></script>
+		<script src = "js/bootstrap.lightbox.js"></script>
 	</body>
 </html>	

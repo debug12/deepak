@@ -131,7 +131,6 @@ $(document).ready(function(){
 		else if(e.keyCode == 40){
 			if(alreadyUp){
 				++length;
-				alert(commands);
 				$('.blackme').val(commands[length]);
 			}
 			return false;
