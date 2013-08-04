@@ -69,7 +69,7 @@ $(document).ready(function(){
 				window.open('http://www.youtube.com/dpakkumar3216');
 			}
 			else if(command == "exit"){
-				$('.bash-outer').hide();
+				$('.bash-outer').fadeOut('slow');
 			}
 			else if(command == "try and read this"){
 				commands.push(command);
