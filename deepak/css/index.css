@@ -119,11 +119,11 @@ a.hover-button:hover{
 	overflow: hidden;
 }
 
-a, a:visited, a:active{
+a.personas, a.personas:visited, a.personas:active{
 	text-decoration: none;
 }
 
-a:hover{
+a.personas:hover{
 	text-decoration: none;
 	border-bottom: 1px blue dotted;
 }
@@ -146,4 +146,35 @@ a:hover{
 	margin-right: 0;
 	font-size: 30px;
 	position: relative;
+}
+
+#purpleLock{
+	height: 200px;
+	width: 300px;
+	background-image: url('../img/purple.png');
+}
+
+#orangeLock{
+	height: 200px;
+	width: 300px;
+	background-image: url('../img/orange.png');
+}
+
+#cyanLock{
+	height: 200px;
+	width: 300px;
+	background-image: url('../img/cyan.png');
+}
+
+#greenLock{
+	height: 200px;
+	width: 300px;
+	background-image: url('../img/green.png');
+}
+
+.lock{
+	height: 64px;
+	width: 64px;
+	display: block;
+	margin-left: 37.5%;
 }

@@ -107,6 +107,26 @@ $(document).ready(function(){
 					$('.clearMe').append("<p>You've already found this one. </p>");
 				}
 			}
+			else if(command == "secretz"){
+				$('.clearMe').empty();
+				commands.push(command);
+				$(this).val("");
+				$('.clearMe').append("<li>try and read this</li>");
+				$('.clearMe').append('<li>i see that you are catching on</li>');
+				$('.clearMe').append('<li>project:noob</li>');
+			}
+			else if(command.split(" ")[0] == "google"){
+				var array = command.split(" ");
+				if(array[1] == undefined){
+					$('.clearMe').empty();
+					$(this).val("");
+				} else{
+					$('.clearMe').empty();
+					$(this).val("");
+					var link = "http://lmgtfy.com/?q="+array[1];
+					window.open(link);
+				}
+			}
 			else{
 				$('.clearMe').empty();
 				commands.push(command);

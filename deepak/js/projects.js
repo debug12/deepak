@@ -1,5 +1,8 @@
 $(document).ready(function(){
-	$('#stamp').click(function(){
-		$('#demoLightbox').lightbox('show');
-	})
+	$('.fancybox').fancybox({
+		helpers		: 	{
+			title   :   { type 	: 	'inside'},
+			buttons :   {}
+		}
+	});
 });

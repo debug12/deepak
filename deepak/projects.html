@@ -10,7 +10,9 @@
 		<link rel="stylesheet" type="text/css" href="css/typed.css">
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-		<link href="css/bootstrap.lightbox.css" rel = "stylesheet" text="text/css" media = "screen">
+		<link rel="stylesheet" type = "text/css" href = "css/jquery.fancybox.css" media = "screen">
+		<link rel="stylesheet" href = "css/jquery.fancybox.buttons.css" media="screen">
+		<link rel = "stylesheet" href = "css/jquery.fancybox-thumbs.css" media = "screen">
 
 	</head>
 	<body>
@@ -23,37 +25,53 @@
 			<table cellpadding="5" width="400" cellspacing="0">
 				<tr>
 					<td>
-						<a href="img/stamp.png">
-							<img data-toggle = "lightbox" id = "stamp" class = "projectImage" src="img/stamp.png">
+						<a class = "fancybox" rel = "group" href="img/stamp.png" title = "I worked at stamp.fm, and built for them a web application that lets underground artists get discovered in an online music competiton.">
+							<img id = "stamp" class = "projectImage" src="img/stamp.png" alt = "" title = ""/>
 						</a>
 					</td>
 					<td>
-						<img class = "projectImage" src="img/300x300.png">
+						<a class = "fancybox" rel = "group" href = "img/orange.png" title = "nothing to see here. carry on.">
+							<div class = "projectImage" id = "orangeLock"></div>
+						</a>
 					</td>
 					<td>
-						<img src="img/traction.png" height = "200px" width = "300px">
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<img src="img/300x300.png">
-					</td>
-					<td>
-						<img class = "projectImage"src="img/this.png">
-					</td>
-					<td>
-						<img src="img/300x300.png">
+						<a class = "fancybox" rel = "group" href = "img/traction.png" title = "I co-founded the Traction Nework [working title], an online platform that connects advertisers to truck space. We are in development and launching soon!">
+							<img class = "projectImage" src="img/traction.png" height = "200px" width = "300px">
+						</a>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<img src="img/300x300.png">
+						<a class = "fancybox" rel = "group" href = "img/purple.png" title = "I can't tell you about this project yet STOP CLICKING THE LOCKS ITS ALL THE SAME">
+							<div class = "projectImage" id = "purpleLock"></div>
+						</a>
 					</td>
 					<td>
-						<img src="img/300x300.png">
+						<a class = "fancybox" rel = "group" href = "img/this.png" title = "I built and designed this site from the ground up. Meta, right?">
+							<img class = "projectImage"src="img/this.png">
+						</a>
 					</td>
 					<td>
-						<img src="img/300x300.png">
+						<a class = "fancybox" rel = "group" href= "img/cinta.png" title = "I built project: cinta, a platform that lets High School students build cool projects and learn about entrepreneurship together. We are alpha testing in the fall!">
+							<img class = "projectImage" src="img/cinta.png">
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a class = "fancybox" rel = "group" href = "img/cyan.png" title = "I can't tell you about this project yet. Come back later! seriously.">
+							<div class = "projectImage" id = "cyanLock"></div>
+						</a>
+					</td>
+					<td>
+						<a class = "fancybox" rel = "group" href = "img/mirchi.png" title = "I designed the new website for Maize Mirchi A Cappella [which I am also a part of; check us out!]. Launching in the fall.">
+							<img class = "projectImage" src="img/mirchi.png">
+						</a>
+					</td>
+					<td>
+						<a class = "fancybox" rel = "group" href = "img/green.png" title = "I can't tell you about this project yet. Come back later! :)">
+							<div class = "projectImage" id = "greenLock"></div>
+						</a>
 					</td>
 				</tr>
 			</table>
@@ -73,18 +91,12 @@
 
 		</tr></table>
 		</div>
-
-		<div id="demoLightbox" class = "lightbox hide fade" tabindex="-1" role = "dialog" aria-hidden="true">
-			<div class = 'lightbox-content'>
-				<img src="img/stamp.png">
-				<div class = "lightbox-caption"><p>Your caption here </p></div>
-			</div>
-		</div>
-
-
-		<script src = "http://code.jquery.com/jquery.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src = "http://code.jquery.com/jquery-1.7.2.js"></script>
 		<script src = "js/bootstrap.min.js"></script>
-		<script src = "js/bootstrap.lightbox.js"></script>
+		<script src = "js/jquery.fancybox.pack.js"></script>
+		<script src = "js/jquery.fancybox-buttons.js"></script>
+		<script src = "js/jquery.fancybox-media.js"></script>
+		<script src= "js/jquery.fancybox-thumbs.js"></script>
+		<script src = "js/projects.js"></script>
 	</body>
 </html>	
