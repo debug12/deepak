@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href = "../css/bootstrap-glyphicons.css" rel = "stylesheet">
+    <link href = "../css/blogitem.css" rel = "stylesheet" type = 'text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+    <title> Insert Blog Title Here. </title>
+	</head>
+
+	<body>
+	<div class = "jumbotron">
+		<h1 class = "blogTitle"></h1>
+	</div>
+	<h3 class = "blogTitle">Do you program, or do you code?</h2>
+	<h3 class = "tagline">
+		My co-workers and I recently had a great conversation about coding, programming, and college. I thought I'd share my thoughts here.	
+	</h3>
+	<div class = "blogHeader">
+		<h3> Coding <strong>vs.</strong> Programming </h3>
+	</div>
+	<div class = "blogText">
+		<p>
+			I often tell people that I love to code. 
+		</p>
+		<p>
+			But is that really true? When it comes down to it, I wouldn't say that I like to code at all. In fact, oftentimes, the <em>coding</em> aspect of programming seems laborious and even mundane - I occasionally find myself in a slump where, if I'm tackling a problem that I already know how to solve, I get bored fairly fast. 
+		</p>
+		<p>
+			Now, this doesn't necessarily mean that I'm uninterested in the problem I'm solving, it just simply means that I'm not motivated to solve problems that I've already figured out how to do. 
+		</p>
+		<p>
+			A quick example: For <a target = "_blank" href = "http://www.stamp.fm">stamp.fm</a> (my first real web application), I needed to build a simple authentication API in node.js that would authenticate users and serialize them into a session on the website. Being a noob to this stuff (still a noob, maybe less of one though), I found it fascinating to use the modern patterns of salting, hashing, and session storing to track users as they travelled from page to page on the site.
+
+			This little piece of code:
+			<pre> 
+				db.users.findOne({_id: id}, function(e, o){
+					req.session.user = o;
+				});
+			</pre> 
+			made me feel so special back in May. 
+		</p>
+		<p>
+			Fast forward 4 months. I'm now working on 6 simulatenous projects, each one of them with a similar authentication API. At this point, the good ol' <code> app.use(express.session({ secret: 'imnottellingyoumyappsecret})); </code> has unfortunately lost it's charm.
+		</p>
+		<p>
+			What I'm getting at here is something that I feel like most tech-y people know but oftentimes overlook, and what most (maybe even all) non tech-y people don't seem to understand: <em>The distinction between coding and programming is huge; if you aren't challenging your programmers with hard problems, they probably won't be interested in what you have to offer for very long. </em>
+		</p>
+	</div>
+	<div class = "blogHeader">
+		<h3> College? </h3>
+	</div>
+	<div class = "blogText">
+		<p>
+			There's plenty of discussion on the internet about whether or not college is a valuable use of time for students, entrepreneurs, hackers, etc. I'm not going to get into that here - but I do want to touch on what I feel (as a student) University offers for programmers and coders out there.
+		</p>
+		<p>
+			A good friend of mine once said: 
+			<blockquote>
+				"Oh, you never use any of the things you learn in school in real life - that time is better spent just working on your own projects or getting experience in the real world."
+				<small>A good friend of mine.</small>
+			</blockquote>
+		</p>
+		<p>
+			To which I responded with: "I started to program in my freshman year intro to computer science course, and yes, it was basic, but I use those skills every day when building production applications"
+		</p>
+		<p>
+			To which he responded: "Oh yeah, but you could've just learned that stuff on your own."
+		</p>
+		<p>
+			While I agree that the <em>syntax</em> and the <em>semantics</em> of any programming language can be easy to learn on your own, that's not what college is really about. College, to me at least, is where you begin to understand how to think about problems.
+		</p>
+		<p>
+			In my EECS 280 class, (Introduction to Data Structures), we code in C++. We learn about various programming constructs and simple structures, and begin to touch on the concepts of objects and languages of first-class, but nothing too intense. 
+		</p>
+		<p>
+			Project 3 (oh, the infamy of project 3...) is often regarded as one of the "toughest" projects in the course, but not because of the difficulty necessarily associated with the <em>programming</em>, but more so with the boring, repetitive <em>coding.</em> The project is a board game simulation that most students average ~700 lines of code (~1000 with comments!) on, simply because the spec is long and most people don't spend the time to think about the problem before they sit down and code.
+		</p>
+		<p>
+			In a way, I found project 3 to be a wonderful exercise in terms of my ability to write clean, concise, and meaningful code. My project (which was ~450 w/o comments, ~650 with), was something that I was incredibly proud of coming out of the class with - as I spent a lot of time revising, editing, and learning about different ways to tackle otherwise very mundane issues that many students had with their code.
+		</p>
+		<p>
+			By testing us with a, by nature, very monotonous <em>coding</em> exercise, I feel as though they began to weed out those who enjoyed programming from those who studied computer science just because. It was supposed to be a learning experiment, and to me, it really was. 
+		</p>
+		<p>
+			College programming courses may not prepare you for the real world, but they definitely force you to choose what kind of a programmer you want to be. It forces you to ask yourself: Do you want to be a programmer or a coder? A CSE degree doesn't make that distinction, it's up to you to make that hard decision and carry out your life and your personal goals accordingly.
+		</p>
+	</div>
+
+	<!---<div id = "footer">
+		<a id = "footerId" href = "../blog.html"><span class="glyphicon glyphicon-list-alt"></span></a>
+	</div>-->
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/respond.js"></script>
+	</body>
+
+</html>

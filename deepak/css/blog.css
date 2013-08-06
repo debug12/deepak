@@ -22,3 +22,9 @@ a:hover{
 .dateText:hover{
 	color:#732e2d;
 }
+
+.alignMe{
+	display: block;
+	text-align: center;
+	font-size: 30px;
+}

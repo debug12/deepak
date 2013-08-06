@@ -10,6 +10,11 @@
 	margin-left: 40px;
 }
 
+.tagline{
+   text-align: center;
+   font-style: italic;
+}
+
 body{
 	background-image:url('../img/background.png');
 }
