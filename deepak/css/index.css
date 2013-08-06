@@ -1,223 +1,206 @@
 body{
-	background-image:url('../img/background.png');
+background-image:url('../img/background.png');
 }
 
 .jumbotron{
-	background-image:url('../img/topback.jpg');
+background-image:url('../img/topback.jpg');
 }
 
 .bigName{
-	text-align: center;
-	font-family: 'Yesteryear', cursive;
-	font-size: 100px;
-	color:black;
+text-align: center;
+font-family: 'Yesteryear', cursive;
+font-size: 100px;
+color:black;
 }
 
 #tagline{
-	text-align: center;
-	font-family: 'Yesteryear', cursive;
-	font-size: 30px;
+text-align: center;
+font-family: 'Yesteryear', cursive;
+font-size: 30px;
 }
 
 #personal{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
 }
 
 .centerImage{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .hide{
-	display: none;
+display: none;
 }
 
 .bash-outer{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 210px;
-	width: 600px;
-	border-radius: 15px;
-	background-color: black;
-	box-shadow: 10px 10px 10px #888888;
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 210px;
+width: 600px;
+border-radius: 15px;
+background-color: black;
+box-shadow: 10px 10px 10px #888888;
 }
 
 .bash-topbar{
-	width: 600px;
-	height: 25px;
-	background-color: #5E5B5C;
-	border-top-left-radius: inherit;
-	border-top-right-radius: inherit;
+width: 600px;
+height: 25px;
+background-color: #5E5B5C;
+border-top-left-radius: inherit;
+border-top-right-radius: inherit;
 }
 
 .centerMe{
-	text-align:center;
+text-align:center;
 }
 
 #bash-title{
-	color: #EBE1DA;
-	font-size: 17px;
-	font-family: 'Ubuntu';
+color: #EBE1DA;
+font-size: 17px;
+font-family: 'Ubuntu';
 }
 
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px){
-	table, thead, tbody, th, td, tr{
-		display: block;
-	}
-
-	thead tr{
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-
-	tr{ border: 1px solid #ccc;}
-
-	td{
-		border: none;
-		border-bottom: 1px solid #eee;
-		position: relative;
-		padding-left: 50%;
-	}
-
-	td:before{
-		position: absolute;
-		top: 6px;
-		left: 5px;
-		width: 45%;
-		padding
-		right: 10px;
-		white-space: nowrap;
-	}
-
-	td:nth-of-type(1):before { content: "Stamp.fm"; }
-	td:nth-of-type(2):before {content: "Secret";}
-	td:nth-of-type(3):before {content: "Youtube";}
-	td:nth-of-type(4):before {content: "Secret";}
-	td:nth-of-type(5):before {content: "This";}
-	td:nth-of-type(6):before {content: "Cinta";}
-	td:nth-of-type(7):before {content: "Secret";}
-	td:nth-of-type(8):before {content: "Maize Mirchi";}
-	td:nth-of-type(9):before {content: "Secret";}
-
-}
 
 .bash-inner{
-	font-family: 'Ubuntu Mono';	
-	color: white;
-	font-size: 20px;
+font-family: 'Ubuntu Mono';
+color: white;
+font-size: 20px;
 }
 
 #typed-cursor{
-	opacity: 1;
-	font-weight: 100;
-	animation: blink 0.7s infinite;
+opacity: 1;
+font-weight: 100;
+animation: blink 0.7s infinite;
 }
 
 @-keyframes blink{
-	0% {opacity: 1;}
-	50% {opacity: 0;}
-	100% {opacity: 1;}
+0% {opacity: 1;}
+50% {opacity: 0;}
+100% {opacity: 1;}
 }
 
 #hideMe{
-	display:none;	
+display:none;
 }
 
 #typed2{
-	display: none;
+display: none;
 }
 
 
 a.hover-button:hover{
-	opacity: 0.7;
+opacity: 0.7;
 }
 
 .noCenter{
-	text-align: none;
+text-align: none;
 }
 
 #navigation-text{
-	display: none;
+display: none;
 }
 
 .blackme{
-	color: white;
-	border: 5px solid black;
-	background-color:black;
-	width: 400px;
+color: white;
+border: 5px solid black;
+background-color:black;
+width: 400px;
 }
 
 .blackme:focus{
-	outline: 0;
+outline: 0;
 }
 
 .commands{
-	display:none;
-	overflow: hidden;
+display:none;
+overflow: hidden;
 }
 
 a.personas, a.personas:visited, a.personas:active{
-	text-decoration: none;
+text-decoration: none;
 }
 
 a.personas:hover{
-	text-decoration: none;
-	border-bottom: 1px blue dotted;
-}
-
-.projectImage:hover{
-	opacity: 0.7;
+text-decoration: none;
+border-bottom: 1px blue dotted;
 }
 
 .image2{
-	width: 300px;
-	height: 200px;
-	background-image: url('../img/300x300.png');
-	position: relative;
+width: 300px;
+height: 200px;
+background-image: url('../img/300x300.png');
+position: relative;
 }
 
 .imageText{
-	text-align: center;
-	font-family: 'Ubuntu';
-	margin-left: 0;
-	margin-right: 0;
-	font-size: 30px;
-	position: relative;
+text-align: center;
+font-family: 'Ubuntu';
+margin-left: 0;
+margin-right: 0;
+font-size: 30px;
+position: relative;
 }
 
 #purpleLock{
-	height: 200px;
-	width: 300px;
-	background-image: url('../img/purple.png');
+height: 200px;
+width: 300px;
+background-image: url('../img/purple.png');
 }
 
 #orangeLock{
-	height: 200px;
-	width: 300px;
-	background-image: url('../img/orange.png');
+height: 200px;
+width: 300px;
+background-image: url('../img/orange.png');
 }
 
 #cyanLock{
-	height: 200px;
-	width: 300px;
-	background-image: url('../img/cyan.png');
+height: 200px;
+width: 300px;
+background-image: url('../img/cyan.png');
 }
 
 #greenLock{
-	height: 200px;
-	width: 300px;
-	background-image: url('../img/green.png');
+height: 200px;
+width: 300px;
+background-image: url('../img/green.png');
 }
 
 .lock{
-	height: 64px;
-	width: 64px;
-	display: block;
-	margin-left: 37.5%;
+height: 64px;
+width: 64px;
+display: block;
+margin-left: 37.5%;
+}
+
+#wrap{
+width: 70%;
+margin: auto;
+text-align: center;
+}
+
+.fancybox{
+text-align: center;
+padding: 3px;
+}
+
+.projectImage{
+display: inline-block;
+margin: auto;
+width:30%;
+}
+
+.projectImage:hover{
+opacity: 0.7;
+}
+
+.row{
+width: 100%;
+margin: auto;
+text-align: center;
+margin-top: 10px;
 }

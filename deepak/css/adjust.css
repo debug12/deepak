@@ -1,0 +1,204 @@
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+    
+    body {
+        min-width: 720px;
+    }
+    
+#wrap{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    height: 100%; 
+}
+
+.fancybox{
+    text-align: center;
+    padding: 3px;
+}
+
+.bigName{
+    font-size: 32px;
+}
+
+#tagline{
+    font-size: 22px;
+}
+
+.projectImage{
+
+}
+
+.projectImage:hover{
+    opacity: 0.7;
+}
+
+.row{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.jumbotron{
+        height: 70px;
+}
+
+.jumbotron h1{
+    margin-top: -10px;
+    font-size: 32px;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 719px) {
+
+    body {
+        min-width:480px;
+    }
+
+    .bash-outer{
+        display: none;
+    }
+
+    .bash-inner{
+        display: none;
+    }
+
+    #hideMe{
+        display: inline;
+    }    
+
+#wrap{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    height: 100%; 
+}
+
+.fancybox{
+    text-align: center;
+    padding: 3px;
+}
+
+.bigName{
+    font-size: 30px;
+}
+
+#tagline{
+    font-size: 20px;
+}
+
+.projectImage{
+
+}
+
+.projectImage:hover{
+    opacity: 0.7;
+}
+
+.row{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.jumbotron{
+        height: 70px;
+}
+
+.jumbotron h1{
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+#cont td a img{
+    height: 40px;
+    width: 40px;
+}
+
+#cont td{
+    width: 10%;
+}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    body {
+        min-width:240px;
+    }
+
+    .bash-outer{
+        display: none;
+    }
+
+    .bash-inner{
+        display: none;
+    }
+
+    #hideMe{
+        display: inline;
+    }
+#wrap{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    height: 100%; 
+}
+
+.fancybox{
+    text-align: center;
+    padding: 3px;
+}
+
+.bigName{
+    font-size: 20px;
+}
+
+#tagline{
+    font-size: 15px;
+}
+
+.projectImage{
+    display: block;
+    margin: auto;
+    width:100%;
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: -12px;
+    padding: 0px;
+}
+
+.projectImage:hover{
+    opacity: 0.7;
+}
+
+.row{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: -12px;
+}
+
+.jumbotron{
+        height: 50px;
+}
+
+.jumbotron h1{
+    margin-top: -10px;
+}
+
+#cont td a img{
+    height: 30px;
+    width: 30px;
+}
+
+#cont td{
+    width: 10%;
+    display: inline-block;
+}
+
+#cont{
+    text-align: center;
+    margin: auto;
+}
+}
